@@ -8,6 +8,9 @@ function App() {
         <div className="jumbotron">
           <h1>Clicky Game</h1>
           <p>Hello World</p>
+          <div className="container">
+            
+          </div>
         </div>
       </header>
     </div>

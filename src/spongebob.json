@@ -1,0 +1,12 @@
+[{
+    "id": 1,
+    "name": "spongebob",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg",
+    "clicked": false
+},
+{
+    "id": 2,
+    "name": "patrick",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
+    "clicked": false
+}]
