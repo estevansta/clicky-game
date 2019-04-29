@@ -9,9 +9,12 @@ import Spongebob from  "./spongebob.json"
 class App extends Component {
   // setting up counter and score tracker
   state = {
+    // assinging the state to the spongebob.json file
     Spongebob,
+    // score keeping track "current score"
     counter: 0,
-    score:0,
+    //overall top score
+    score: 0,
   }
 
   // render instead of function to display DOM
@@ -24,9 +27,16 @@ class App extends Component {
         score={this.state.score}/>
         <header className="App-header">
           <div className="jumbotron">
-            <h1>Clicky Game</h1>
-            <p>Hello World</p>
-            <Container/>
+            <p>Click on a spongebob character to start!</p>
+            {/* exporting spongebob.json to the Container component*/}
+            {this.state.Spongebob.map(spongebob => (
+            <Container
+            id={spongebob.id}
+            name={spongebob.name}
+            image={spongebob.image}
+            clicked={spongebob.clicked}
+          />
+        ))}
             
           </div>
         </header>

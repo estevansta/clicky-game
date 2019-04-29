@@ -9,4 +9,28 @@
     "name": "patrick",
     "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
     "clicked": false
+},
+{
+    "id": 3,
+    "name": "sandy",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
+    "clicked": false
+},
+{
+    "id": 4,
+    "name": "mr krabs",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
+    "clicked": false
+},
+{
+    "id": 5,
+    "name": "planton",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
+    "clicked": false
+},
+{
+    "id": 6,
+    "name": "squidward",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/220px-Patrick_Star.svg.png",
+    "clicked": false
 }]
