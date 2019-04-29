@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./components/navbar";
+import Container from "./components/container"
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Navbar/>
       <header className="App-header">
         <div className="jumbotron">
           <h1>Clicky Game</h1>
           <p>Hello World</p>
-          <div className="container">
-            
-          </div>
+          <Container/>
         </div>
       </header>
     </div>
